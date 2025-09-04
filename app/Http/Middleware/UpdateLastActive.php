@@ -17,10 +17,10 @@ class UpdateLastActive
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if (Auth::check()) {
-            $user = Auth::user();
-            $user->updateLastActive();
-        }
+        // if (Auth::check()) {
+        //     $user = Auth::user();
+        //     $user->updateLastActive();
+        // }
 
         return $next($request);
     }

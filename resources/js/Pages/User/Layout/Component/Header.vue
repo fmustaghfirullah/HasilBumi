@@ -55,7 +55,7 @@ a {
         :href="route('Home')"
         class="flex gap-1 text-2xl font-bold text-textColor hover:text-textColor"
       >
-        Hasil <span class="text-primaryColor">Bumi.</span>
+        Pasar <span class="text-primaryColor">Desa.</span>
       </a>
 
       <div class="w-full max-w-xl relative hidden lg:flex">
@@ -219,43 +219,43 @@ a {
           <a
             href="#"
             class="flex items-center px-6 py-3 hover:bg-gray-100 transition w-full"
-            @click="filterByCategory('Meat')"
+            @click="filterByCategory('Kopi')"
           >
-            <span class="ml-6 text-sm text-textColor hover:text-primaryColor">Meat</span>
+            <span class="ml-6 text-sm text-textColor hover:text-primaryColor">Kopi</span>
           </a>
           <a
             href="#"
             class="flex items-center px-6 py-3 hover:bg-gray-100 transition w-full"
-            @click="filterByCategory('Vegetable')"
+            @click="filterByCategory('Sayuran')"
           >
             <span class="ml-6 text-sm text-textColor hover:text-primaryColor"
-              >Vegetable</span
+              >Sayuran</span
             >
           </a>
           <a
             href="#"
-            @click="filterByCategory('Fruits')"
+            @click="filterByCategory('Buah')"
             class="flex items-center px-6 py-3 hover:bg-gray-100 transition w-full"
           >
             <span class="ml-6 text-sm text-textColor hover:text-primaryColor"
-              >Fruits</span
+              >Buah</span
             >
           </a>
           <a
             href="#"
-            @click="filterByCategory('Forest')"
+            @click="filterByCategory('Hutan')"
             class="flex items-center px-6 py-3 hover:bg-gray-100 transition w-full"
           >
             <span class="ml-6 text-sm text-textColor hover:text-primaryColor"
-              >Forest</span
+              >Hutan</span
             >
           </a>
           <a
             href="#"
-            @click="filterByCategory('Grain')"
+            @click="filterByCategory('Benih')"
             class="flex items-center px-6 py-3 hover:bg-gray-100 transition w-full"
           >
-            <span class="ml-6 text-sm text-textColor hover:text-primaryColor">Grain</span>
+            <span class="ml-6 text-sm text-textColor hover:text-primaryColor">Benih</span>
           </a>
           <a
             href="#"
@@ -268,35 +268,26 @@ a {
           </a>
           <a
             href="#"
-            @click="filterByCategory('Ship')"
+            @click="filterByCategory('Porang')"
             class="flex items-center px-6 py-3 hover:bg-gray-100 transition w-full"
           >
-            <span class="ml-6 text-sm text-textColor hover:text-primaryColor">Ship</span>
+            <span class="ml-6 text-sm text-textColor hover:text-primaryColor">Porang</span>
           </a>
           <a
             href="#"
-            @click="filterByCategory('Processed')"
+            @click="filterByCategory('Proses')"
             class="flex items-center px-6 py-3 hover:bg-gray-100 transition w-full"
           >
             <span class="ml-6 text-sm text-textColor hover:text-primaryColor"
-              >Processed</span
+              >Proses</span
             >
           </a>
           <a
             href="#"
-            @click="filterByCategory('Spice')"
+            @click="filterByCategory('Rempah - rempah')"
             class="flex items-center px-6 py-3 hover:bg-gray-100 transition w-full"
           >
-            <span class="ml-6 text-sm text-textColor hover:text-primaryColor">Spice</span>
-          </a>
-          <a
-            href="#"
-            @click="filterByCategory('Textile')"
-            class="flex items-center px-6 py-3 hover:bg-gray-100 transition w-full"
-          >
-            <span class="ml-6 text-sm text-textColor hover:text-primaryColor"
-              >Textile</span
-            >
+            <span class="ml-6 text-sm text-textColor hover:text-primaryColor">Rempah - rempah</span>
           </a>
         </div>
       </div>

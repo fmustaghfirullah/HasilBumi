@@ -16,7 +16,7 @@ export const colorsBgLight = {
 export const colorsText = {
   white: 'text-black dark:text-slate-100',
   light: 'text-gray-700 dark:text-slate-400',
-  contrast: 'dark:text-white',
+  contrast: 'text-black dark:text-white',
   success: 'text-emerald-500',
   danger: 'text-red-500',
   warning: 'text-yellow-500',
@@ -89,7 +89,7 @@ export const getButtonColor = (color, isOutlined, hasHover, isActive = false) =>
       info: 'border-blue-600 dark:border-blue-500'
     },
     text: {
-      contrast: 'dark:text-slate-100',
+      contrast: 'text-black dark:text-slate-100',
       success: 'text-emerald-600 dark:text-emerald-500',
       danger: 'text-red-600 dark:text-red-500',
       warning: 'text-yellow-600 dark:text-yellow-500',

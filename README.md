@@ -11,6 +11,12 @@
 - **Secure Transactions**: Built-in payment systems ensure secure transactions between sellers and buyers.
 - **Ratings & Reviews**: Buyers can rate and review products, helping to maintain quality and trust within the marketplace.
 
+
+##
+Feature link
+
+https://www.linkedin.com/posts/aji-setiawan-360718297_webdevelopment-websitedesign-uiuxdesign-activity-7239875914493272064-4i4N?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEeVC8oBE5xXklO_HJHfEKRPlrpTvI8oqVI
+
 ---
 
 ## 🚀 How It Works
